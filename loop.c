@@ -2,11 +2,11 @@
 
 int main(){
 
-    int index;
-
-    for(index = 0; index < 10; index++)
-    {
-        printf("Hello world!\n");
+    for(int i=1; i < 6; i++){
+        for(int j=0; j < i; j++){
+            printf("*");
+        }
+        printf("\n");
     }
 
     return 0;
